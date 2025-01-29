@@ -11,15 +11,15 @@ public class ex02 {
 
         if (X % 2 == 0) {
             if (X > 0) {
-                System.out.print("O número digitado é PAR e é Positivo");
+                System.out.println("O número digitado é PAR e é Positivo");
             } else {
-                System.out.print("O número digitado é PAR e é Negativo");
+                System.out.println("O número digitado é PAR e é Negativo");
             }
         } else {
             if (X > 0) {
-                System.out.print("O número digitado é ÍMPAR e é Positivo");
+                System.out.println("O número digitado é ÍMPAR e é Positivo");
             } else {
-                System.out.print("O número digitado é ÍMPAR e é Negativo");
+                System.out.println("O número digitado é ÍMPAR e é Negativo");
             }
         }
 
