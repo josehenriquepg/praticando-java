@@ -8,15 +8,15 @@ public class ex03 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite os valores de A e B, respectivamente:");
-        int A = sc.nextInt();
-        int B = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        if (A == B) {
-            int C = A + B;
-            System.out.print("O resultado da soma de A + B é: " + C);
+        if (a == b) {
+            int c = a + b;
+            System.out.print("O resultado da soma de A + B é: " + c);
         } else {
-            int C = A * B;
-            System.out.print("O resultado da multiplicação de A x B é: " + C);
+            int c = a * b;
+            System.out.print("O resultado da multiplicação de A x B é: " + c);
         }
 
         sc.close();

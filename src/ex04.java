@@ -6,10 +6,10 @@ public class ex04 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite um número aleatório:");
-        int X = sc.nextInt();
+        int x = sc.nextInt();
 
-        System.out.println("Seu antecessor é: " + (X - 1));
-        System.out.println("Seu sucessor é: " + (X + 1));
+        System.out.println("Seu antecessor é: " + (x - 1));
+        System.out.println("Seu sucessor é: " + (x + 1));
 
         sc.close();
     }

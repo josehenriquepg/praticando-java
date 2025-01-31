@@ -10,18 +10,18 @@ public class ex01 {
         // Solicitar e ler os valores de A, B e C.
         System.out.println("Digite os valores de A, B e C, respectivamente:");
         // nextInt() lê os números inteiros digitados pelo usuário.
-        int A = sc.nextInt();
-        int B = sc.nextInt();
-        int C = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
         // Calculando a soma de A e B.
-        int soma = A + B;
+        int soma = a + b;
 
         // Mostrar o resultado.
         System.out.println("A soma de A e B é: " + soma);
 
         // Comparar resultado com C.
-        if (soma < C) {
+        if (soma < c) {
             System.out.print("A soma de A + B é menor que C");
         } else {
             System.out.print("A soma de A + B é maior que C");
